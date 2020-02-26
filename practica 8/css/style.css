@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+header
+{
+    background: url('../img/banner.jpg');
+}
+header h1
+{
+    font-size: 2.5em;
+    font-weight: normal;
+}
+#logo, header h1
+{
+    margin-bottom: 0px;
+    display: inline-block;
+}
+nav
+{
+    display: inline-block;
+    width: 750px;
+    text-align: right;
+}
+nav ul
+{
+    list-style-type: none;
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+nav a
+{
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+}
+nav a :hover
+{
+    color: azure;
+}
+#article
+{
+    padding: 10px;
+}
+section
+{
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 75%;
+}
+aside
+{
+    float: right;
+    width: 20%;
+    border: 1px solid;
+}
